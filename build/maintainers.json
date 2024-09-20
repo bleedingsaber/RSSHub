@@ -650,6 +650,9 @@
   "/bilibili/bangumi/media/:mediaid": [
     "DIYgod"
   ],
+  "/bilibili/precious/:disableEmbed?": [
+    "liuyuhe666"
+  ],
   "/bilibili/user/coin/:uid/:disableEmbed?": [
     "DIYgod"
   ],
@@ -946,6 +949,9 @@
   "/bulianglin/": [
     "cnkmmk"
   ],
+  "/bupt/jwc/:type": [
+    "Yoruet"
+  ],
   "/bupt/rczp": [
     "nczitzk"
   ],
@@ -1087,6 +1093,9 @@
   ],
   "/ccf/tfbd/:caty/:id": [
     "tudou027"
+  ],
+  "/ccfa/:type?": [
+    "nczitzk"
   ],
   "/ccnu/career": [
     "jackyu1996"
@@ -1595,6 +1604,9 @@
   "/devolverdigital/blog": [
     "XXY233"
   ],
+  "/devtrium/": [
+    "Xy2002"
+  ],
   "/dewu/declaration/:categoryId?": [
     "blade0910"
   ],
@@ -1627,6 +1639,10 @@
     "TonyRL"
   ],
   "/discourse/:configId/notifications/:fulltext?": [],
+  "/discourse/:configId/official/:path{.+}": [
+    "Raikyou",
+    "dzx-dzx"
+  ],
   "/discourse/:configId/posts": [
     "dzx-dzx"
   ],
@@ -1730,6 +1746,9 @@
   ],
   "/douban/event/hot/:locationId": [
     "xyqfer"
+  ],
+  "/douban/movie/coming": [
+    "reonokiy"
   ],
   "/douban/bookstore": [
     "xyqfer"
@@ -2095,7 +2114,8 @@
     "nczitzk"
   ],
   "/follow/profile/:uid": [
-    "KarasuShin"
+    "KarasuShin",
+    "DIYgod"
   ],
   "/followin/:categoryId?/:lang?": [
     "TonyRL"
@@ -2458,6 +2478,10 @@
     "nczitzk"
   ],
   "/gov/cmse/*": [],
+  "/gov/cn/news/:uid": [
+    "EsuRt",
+    "howfool"
+  ],
   "/gov/cnnic/*": [],
   "/gov/csrc/auditstatus/:apply_id": [
     "hillerliao"
@@ -2565,13 +2589,17 @@
   "/gov/mot/:category{.+}?": [
     "ladeng07"
   ],
-  "/gov/ndrc/fggz/:category{.+}?": [],
-  "/gov/ndrc/xwdt/:category{.+}?": [],
-  "/gov/nea/sjzz/ghs": [
+  "/gov/ndrc/fggz/:category{.+}?": [
     "nczitzk"
   ],
-  "/gov/news/:uid": [
-    "EsuRt"
+  "/gov/ndrc/xwdt/:category{.+}?": [
+    "nczitzk"
+  ],
+  "/gov/ndrc/zfxxgk/iteminfo": [
+    "howfool"
+  ],
+  "/gov/nea/sjzz/ghs": [
+    "nczitzk"
   ],
   "/gov/nifdc/:path{.+}?": [],
   "/gov/nmpa/*": [],
@@ -3748,6 +3776,9 @@
   "/lmu/jobs": [
     "StarDxxx"
   ],
+  "/lofter/collection/:collectionID": [
+    "SrakhiuMeow"
+  ],
   "/lofter/tag/:name?/:type?": [
     "hoilc",
     "nczitzk",
@@ -3847,6 +3878,9 @@
     "EthanWng97"
   ],
   "/mail/imap/:email/:folder{.+}?": [],
+  "/malaysiakini/:lang/:category?": [
+    "quiniapiezoelectricity"
+  ],
   "/mangadex/:id/:lang?": [
     "vzz64"
   ],
@@ -3911,6 +3945,9 @@
     "ImSingee"
   ],
   "/medsci/:sid?/:tid?": [
+    "nczitzk"
+  ],
+  "/meishichina/recipe/:category{.+}?": [
     "nczitzk"
   ],
   "/meituan/tech": [
@@ -4547,6 +4584,10 @@
   "/oceanengine/index/:keyword/:channel?": [
     "Jkker"
   ],
+  "/oct0pu5/": [
+    "octopus058",
+    "wiketool"
+  ],
   "/odaily/activity": [
     "nczitzk"
   ],
@@ -4723,6 +4764,9 @@
     "Maecenas",
     "nczitzk"
   ],
+  "/pconline/focus/:category?": [
+    "CH563"
+  ],
   "/penguin-random-house/articles": [
     "StevenRCE0"
   ],
@@ -4800,6 +4844,9 @@
   ],
   "/pixiv/user/:id": [
     "DIYgod"
+  ],
+  "/pixivision/:lang/:category?": [
+    "SnowAgar25"
   ],
   "/piyao/jrpy": [
     "Fatpandac"
@@ -5324,9 +5371,6 @@
   "/sdu/cmse/:type?": [
     "Ji4n1ng"
   ],
-  "/sdu/cs/:type?": [
-    "Ji4n1ng"
-  ],
   "/sdu/epe/:type?": [
     "Ji4n1ng"
   ],
@@ -5335,6 +5379,10 @@
   ],
   "/sdu/sc/:type?": [
     "Ji4n1ng"
+  ],
+  "/sdu/cs/index/:type?": [
+    "Ji4n1ng",
+    "wiketool"
   ],
   "/sdu/wh/jwc/:column?": [
     "kxxt"
@@ -5624,6 +5672,9 @@
   ],
   "/soundofhope/:channel/:id": [
     "Fatpandac"
+  ],
+  "/soundon/p/:id": [
+    "TonyRL"
   ],
   "/sourceforge/:routeParams?": [
     "JimenezLi"
@@ -6003,6 +6054,9 @@
   "/thehindu/topic/:topic": [
     "TonyRL"
   ],
+  "/theinitium/app/:category?": [
+    "quiniapiezoelectricity"
+  ],
   "/theinitium/author/:type/:language?": [
     "AgFlore"
   ],
@@ -6122,12 +6176,15 @@
     "Fatpandac"
   ],
   "/tju/cic/:type?": [
+    "AlanZeng423",
     "SuperPung"
   ],
   "/tju/news/:type?": [
+    "AlanZeng423",
     "SuperPung"
   ],
   "/tju/oaa/:type?": [
+    "AlanZeng423",
     "AmosChenYQ",
     "SuperPung"
   ],
@@ -6656,6 +6713,9 @@
   ],
   "/wise/pair/:source/:target": [
     "HenryQW"
+  ],
+  "/withgoogle/explorables": [
+    "cesaryuan"
   ],
   "/wizfile/updates": [
     "Fatpandac"
